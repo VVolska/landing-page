@@ -1,0 +1,363 @@
+
+body {
+    background-color: #d6e4e3;
+    background-image: url("images/desktop_linie_smaller_newer.png");
+    font-family: 'Roboto';
+    color: #2b384e;
+    background-size: 100% auto;
+    background-position: center;
+    position: center;
+    width: 100%;
+    overflow-x: hidden;
+    margin: auto;
+
+}
+html {
+    overflow-y: scroll;
+}
+
+a{
+    color: #2b384e;
+}
+.row > * {
+    padding: 0;
+}
+
+h4 {
+    font-size: 12.5px;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 15px;
+    margin: 0;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.header {
+    display: inline-flex;
+    width: 100%;
+
+}
+
+#logo {
+    position: absolute;
+    margin-left: 44px;
+    margin-top: 33px;
+    height: 65px;
+    width: auto;
+}
+
+#podpis {
+    position: relative;
+    line-height: 106px;
+    margin-left: 78px;
+    text-transform: uppercase;
+    padding-left: 44px;
+    padding-top: 33px;
+}
+
+.main-div-container {
+    padding-top: 0;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    z-index: 100;
+    width: fit-content;
+}
+
+#main-div {
+    text-align: center;
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 194px;
+    margin-right: 194px;
+}
+
+.signature {
+    text-align: right;
+}
+
+.signature img{
+    width: 10.5rem;
+}
+
+.image-container {
+    right: 133px;
+    text-align: center;
+    position: relative;
+    width: 570px;
+    margin-top: 100vh;
+    border-left: 194px;
+    border-right: 194px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img_01 {
+    margin-bottom: 44px;
+    width: 303px;
+    height: auto;
+}
+
+#img_02 {
+    position: absolute;
+    margin-top: 134px;
+    left: 400px;
+    width: 303px;
+    height: auto;
+    z-index: 1;
+}
+
+#img_03 {
+    margin-top: 0;
+    width: 378px;
+    height: auto;
+}
+
+#img_03_container {
+    padding-left: 229px;
+}
+
+#contact_container {
+    margin-top: 148px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 572px;
+}
+
+.contact-right {
+    padding-left: 18%;
+}
+
+.contact, .contact-header {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.contact {
+    font-weight: lighter;
+}
+
+.contact-header {
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+.column {
+    float: left;
+    width: 30%;
+}
+
+footer {
+    font-size: 18px;
+    color: #929da3;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 40vh;
+    margin-bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+@media screen and (min-width: 2000px) {
+
+    #main-div h2 {
+        font-size: 2.2rem;
+    }
+    .signature img{
+        width: 19rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    #img_01{
+        width: 425px;
+    }
+
+    #img_02{
+        width: 425px;
+    }
+
+    #img_03{
+        width: 529px;
+    }
+
+    .image-container{
+        right: 176px;
+    }
+
+    /*#img_01 {*/
+    /*    margin-bottom: 44px;*/
+    /*    width: 303px;*/
+    /*    height: auto;*/
+    /*}*/
+
+    /*#img_02 {*/
+    /*    position: absolute;*/
+    /*    margin-top: 134px;*/
+    /*    left: 400px;*/
+    /*    width: 303px;*/
+    /*    height: auto;*/
+    /*    z-index: 1;*/
+    /*}*/
+
+    /*#img_03 {*/
+    /*    margin-top: 0;*/
+    /*    width: 378px;*/
+    /*    height: auto;*/
+    /*}*/
+}
+
+@media screen and (max-width: 576px) {
+
+    body {
+        background-color: #d6e4e3;
+        background-image: url("images/mobile_linie_smaller_newer.png");
+        font-family: 'Roboto';
+        color: #2b384e;
+    }
+
+
+    h4 {
+        font-size: 22.5px;
+        font-weight: lighter;
+    }
+
+    h3 {
+        font-size: 22.5px;
+        margin: 0;
+        font-weight: lighter;
+    }
+
+    h2 {
+        font-size: 29px;
+        font-weight: lighter;
+    }
+
+    .header {
+        padding: 0;
+        text-align: center;
+        display: inline-block;
+        margin-top: 33px;
+        transform: translate(-6px, 0);
+    }
+
+    #logo {
+        height: 116px;
+        width: auto;
+        position: revert;
+        padding-left: 50px;
+        margin: 0;
+    }
+
+    #podpis {
+        margin: 0;
+        padding: 0;
+        line-height: 31px;
+    }
+
+    .signature {
+        text-align: center;
+    }
+
+    .signature img{
+        width: 15rem;
+    }
+
+    .image-container {
+        margin-left: 101px;
+        text-align: left;
+        width: 450px;
+        right: 44px;
+    }
+
+    #img_01 {
+        width: 335px;
+        margin-bottom: 229px;
+    }
+
+    #img_02 {
+        margin-top: 284px;
+        width: 335px;
+        left: 113px;
+        border-right: 56px;
+        z-index: 1;
+    }
+
+    #img_03 {
+        width: 452px;
+        padding-right: 41px;
+    }
+
+    #img_03_container {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .main-div-container {
+        -webkit-transform: translate(0%, -50%);
+        transform: translate(0%, -50%);
+        left: 0;
+    }
+
+    #main-div {
+        text-align: center;
+        margin-top: 50px;
+        display: inline-block;
+        margin-left: 107px;
+        margin-right: 107px;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    #contact_container {
+        margin-left: 55px;
+        width: 450px;
+    }
+
+    .contact-right {
+        padding-left: 0;
+    }
+
+    footer {
+        margin-top: 250px;
+        padding-bottom: 20px;
+        position: inherit;
+    }
+}
+
+@media screen and (max-width: 509px) {
+    html {
+        width: fit-content;
+    }
+
+    .main-div-container {
+        top: 70%;
+        transform: translate(12%, -50%);
+    }
+
+    #img_02 {
+        left: 105px;
+    }
+
+    .image-container {
+        transform: translate(0, 0);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .main-div-container {
+        top: 80%;
+    }
+}
